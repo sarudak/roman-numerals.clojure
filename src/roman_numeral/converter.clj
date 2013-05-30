@@ -1,11 +1,11 @@
 (ns roman-numeral.converter)
 
 (defn get-value-of-pair [[left right]]
-  (if (< left right) (* -1 left) left)
+  (if (< left right) (- left) left)
  )
 
 (defn get-pairs [numerals]
- (partition 2 1 (flatten [numerals 0]))
+ (partition 2 1 (conj (vec numerals) 0))
   )
 
 (defn get-value-of-pairs [pairs]
