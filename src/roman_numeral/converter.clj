@@ -1,34 +1,22 @@
 (ns roman-numeral.converter)
 
-(defn get-value-of-pair [[left right]]
-  (if (< left right) (* -1 left) left)
- )
+(def numeral-to-value-mapping {
+                                \I 1
+                                \V 5
+                                \X 10
+                                \L 50
+                                \C 100
+                                \D 500
+                                \M 1000})
 
-(defn get-pairs [numerals]
- (partition 2 1 (flatten [numerals 0]))
-  )
-
-(defn get-value-of-pairs [pairs]
-  (map get-value-of-pair pairs)
-  )
-
-(defn parse-roman-numeral [roman-numeral]
-  (let [character-map {
-                         \I 1
-                          \V 5
-                          \X 10
-                          \L 50
-                          \C 100
-                          \D 500
-                          \M 1000}]
-
-    (->>
-      (map character-map roman-numeral)
-      (get-pairs)
-      (get-value-of-pairs)
-      (apply +))
+(defn parse-roman-numeral [roman-numerals]
+  (loop [numeral-values (map numeral-to-value-mapping roman-numerals)
+         sum 0]
+    (if (seq numeral-values)
+      (let [[current next] numeral-values
+            add-or-subtract (if (and next (> next current)) - +)]
+        (recur (rest numeral-values) (add-or-subtract sum current)) )
+      sum)
   ))
-
-
 
 (defn convert-to-roman-numeral [number] "")
