@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="519f573e-1b5c-431a-bb7c-6adfd671d861" name="Default" comment="" />
+    <list default="true" id="519f573e-1b5c-431a-bb7c-6adfd671d861" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/converter.clj" afterPath="$PROJECT_DIR$/src/test/converter.clj" />
+    </list>
     <ignored path="roman-numeral.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="519f573e-1b5c-431a-bb7c-6adfd671d861" time="1369858830204" ignored="false" />
     <file path="/core.clj" changelist="519f573e-1b5c-431a-bb7c-6adfd671d861" time="1369858925905" ignored="false" />
-    <file path="/converter.clj" changelist="519f573e-1b5c-431a-bb7c-6adfd671d861" time="1369927053418" ignored="false" />
+    <file path="/converter.clj" changelist="519f573e-1b5c-431a-bb7c-6adfd671d861" time="1369936481898" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -217,7 +219,7 @@
       <file leaf-file-name="converter.clj" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/roman_numeral/converter.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="6" selection-start="36" selection-end="55" vertical-scroll-proportion="0.0">
+            <state line="4" column="6" selection-start="82" selection-end="106" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -226,7 +228,7 @@
       <file leaf-file-name="converter.clj" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/converter.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="4" selection-start="911" selection-end="911" vertical-scroll-proportion="0.5212264">
+            <state line="38" column="45" selection-start="1419" selection-end="1419" vertical-scroll-proportion="0.7617925">
               <folding />
             </state>
           </provider>
@@ -688,14 +690,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/roman_numeral/converter.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="6" selection-start="36" selection-end="55" vertical-scroll-proportion="0.0">
+        <state line="4" column="6" selection-start="82" selection-end="106" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/converter.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="4" selection-start="911" selection-end="911" vertical-scroll-proportion="0.5212264">
+        <state line="38" column="45" selection-start="1419" selection-end="1419" vertical-scroll-proportion="0.7617925">
           <folding />
         </state>
       </provider>
